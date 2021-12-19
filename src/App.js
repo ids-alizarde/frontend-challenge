@@ -1,5 +1,5 @@
-import { Provider } from 'react-redux';
-import { store } from './store/store';
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 import DirectoryList from "ui/components/DirectoryList";
 
 const fetchOffersList = () => {
@@ -8,7 +8,7 @@ const fetchOffersList = () => {
 
 export default function App() {
     return (
-        <Provider store={ store }>
+        <Provider store={store}>
             <DirectoryList />
         </Provider>
     );
