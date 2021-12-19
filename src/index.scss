@@ -1,1 +1,42 @@
 // This is a sample stylesheet, if you're going to use it don't forget to import it.
+
+/* Globales */
+body {
+    background-color: rgba(79, 78, 78, 0.1);
+}
+
+/* Estilos de las cards y contenedores */
+.container__list__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+}
+
+.container__cards {
+    box-shadow: 9px 8px 5px 0px rgba(46, 88, 255, 0.75);
+    -webkit-box-shadow: 9px 8px 5px 0px rgba(46, 88, 255, 0.75);
+    -moz-box-shadow: 9px 8px 5px 0px rgba(46, 88, 255, 0.75);
+    margin: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.card {
+    border: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.card__text {
+    color: #a4a4a4;
+}
+
+.card__paragraph {
+    color: #000000;
+}
+
+.btn__go__up {
+    position: absolute;
+    bottom: 20px;
+}

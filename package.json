@@ -29,7 +29,11 @@
         "preval.macro": "^5.0.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
+        "react-redux": "^7.2.6",
         "recharts": "^1.8.5",
+        "redux": "^4.1.2",
+        "redux-thunk": "^2.4.1",
+        "store": "^2.0.12",
         "stylelint-scss": "^3.17.1"
     },
     "devDependencies": {
@@ -68,6 +72,7 @@
         "parcel-plugin-less-js-enabled": "^1.0.2",
         "prettier": "^2.0.5",
         "pretty-quick": "^2.0.1",
+        "sass": "^1.45.0",
         "stylelint": "^13.3.3",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended": "^3.0.0",

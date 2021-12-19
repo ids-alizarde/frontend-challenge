@@ -1,3 +1,5 @@
+import { Provider } from 'react-redux';
+import { store } from './store/store';
 import DirectoryList from "ui/components/DirectoryList";
 
 const fetchOffersList = () => {
@@ -6,10 +8,8 @@ const fetchOffersList = () => {
 
 export default function App() {
     return (
-        <>
-            <p class="py-4 text-lg text-center">Start here :) Good luck!</p>
-
-            <DirectoryList offerList={fetchOffersList()} />
-        </>
+        <Provider store={ store }>
+            <DirectoryList />
+        </Provider>
     );
 }
